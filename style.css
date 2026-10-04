@@ -1,0 +1,46 @@
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.judul {
+    background-color: #275BF5;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+/* Bagian merge cell */
+.kolom-gede {
+    border: 2px solid red;
+    background-color: rgb(251, 205, 205);
+}
+
+/* Bagian split cell */
+.split-box {
+    border: 2px dashed #008000;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #a3e6a1;
+}
+
+.split-header {
+    background-color: #a3e6a1;
+    color: #008000;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px;
+    border: none;
+}
+
+.tabel-kecil td {
+    background-color: #ffffff;
+    border: 1px solid #bcbcbc;
+    padding: 6px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Data Biodata Siswa</h2>
+
+    <table>
+        <tr class="judul">
+            <th>Field / Atribut</th>
+            <th>Keterangan / Hasil input</th>
+        </tr>
+        <tr>
+            <th>Nama:</th>
+            <td>Vellisa Putri</td>
+        </tr>
+        <tr>
+            <th>Alamat: </th>
+            <td>Moscow, Russia</td>
+        </tr>
+        <tr>
+            <th>Jurusan: </th>
+            <td>Rekayasa Perangkat Lunak</td>
+        </tr>
+        <tr>
+            <th>Jenis Kelamin: </th>
+            <td>Perempuan</td>
+        </tr>
+        <tr>
+            <th>Tinggi Badan (cm): </th>
+            <td>155</td>
+        </tr>
+        <tr>
+            <th>Berat Badan: </th>
+            <td>45.5</td>
+        </tr>
+        <tr>
+            <th>Hobi: </th>
+            <td>Mencintai yang tak nyata</td>
+        </tr>
+        <tr>
+            <th>NO. Hp: </th>
+            <td>08588976544</td>
+        </tr>
+        <tr>
+            <th colspan="2" class="akhir1">Data berhasil direkap oleh tabel.</th>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <table>
+        <tr class="judul">
+            <th>Kategori Utama</th>
+            <th>Sub Kategori</th>
+            <th>Atribut Isian</th>
+            <th>Detail Data / Nilai</th>
+        </tr>
+        <tr>
+            <th rowspan="3" class="kolom-gede">DATA SISWA</th>
+            <td rowspan="2">Identitas Utama</td>
+            <td>Nama Lengkap</td>
+            <td>Vellisa Putri</td>
+        </tr>
+        <tr>
+            <td>Alamat Rumah</td>
+            <td>Moscow, Russia</td>
+        </tr>
+        <tr>
+            <th colspan="2" class="kolom-gede">Kontak Aktif: 08588976544</th>
+            <td>Hobi: Mencintai yang tidak nyata</td>
+        </tr>
+        <tr>
+            <th>Akademik</th>
+            <td>Jurusan PPLG</td>
+            <td>Pilihan Kelas</td>
+            <td>RPL (Rekayasa Perangkat Lunak)</td>
+        </tr>
+        <tr>
+            <th>Preferensi</th>
+            <td>Gender</td>
+            <td>Jenis Kelamin</td>
+            <td>Perempuan</td>
+        </tr>
+        <tr>
+            <th>Antropometri</th>
+            <td>Pengukuran Fisik</td>
+            <td>Parameter Badan</td>
+            <div class="box-ijo">
+                <td class="sel-nesting">
+                    <table class="split-box">
+                        <tr>
+                            <td class="split-header">SPLIT CELL</td>
+                        </tr>
+                        <tr class="tabel-kecil">
+                            <td>Tinggi Badan: 155 cm</td>
+                        </tr>
+                        <tr class="tabel-kecil">
+                            <td>Berat Badan: 45.5 kg</td>
+                        </tr>
+                    </table>
+                </td>
+            </div>
+        </tr>
+    </table>
+</body>
+
+</html>
